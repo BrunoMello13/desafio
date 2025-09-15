@@ -83,12 +83,12 @@ FLUSH PRIVILEGES;
 
 39- exit;
 ---Teste para o banco de dados---
-40- mysql -u site_user -p site_php
+40- mysql -u site_user -p use site_php
 
 41-INSERT INTO mensagens (nome, email, mensagem) VALUES ('Teste', 'teste@email.com', 'Olá do PHP!');
 42-SELECT * FROM mensagens;
 
-
-43- sudo apt install libapache2-mod-php php-mysql -y
-44- sudo a2enmod php8.3
-45- sudo systemctl restart apache2
+43- exit;
+44- sudo apt install libapache2-mod-php php-mysql -y
+45- sudo a2enmod php8.3
+46- sudo systemctl restart apache2
